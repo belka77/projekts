@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #c9b5b5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#cits {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(15, 104, 27)
+}
+table {font-family: cursive;
+       font-size: 20px;
+       color: rgb(15, 104, 27);
+  
+}
