@@ -1,10 +1,83 @@
-html {
+html, body {
   height: 100%;
   width: 100%;
-}
-body {
-  background-color: #c9b5b5;
+  margin: 0;
+  padding: 0;
+  font-family: sofia, sans-serif;
+  background-image: radial-gradient(pink, white, green);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.topnav  {
+  overflow: hidden;
+  background-color: pink;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 200px);
+}
+.topnav a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: lightcyan;
+  text-decoration: none;
+  font-size: 17px;
+  height: 35px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: green;
+  color: black;
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightcoral;
+}
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: blueviolet;
+  display: block;;
+  borderL 10px;
+  border-color: red;
+}
+
+.siderbar a:hover {
+  background-color: black;
+  color: blue;
+}
+footer {
+  background-color: pink;
+  color: red;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+main {
+  margin-left: 200px;
+  padding: 0px;
+  margin-top: 0px;
+  background-color: grey;
+  width: calc(100% - 200px);
+  margin-top: 25px;
+  height: 100%;
 }
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -25,6 +98,22 @@ table {font-family: cursive;
   
 }
 #zimejums {
-  background-color: #f9ab5b9;
-  border: 3px solid #000000;
+  background-color: green;
+  border: 3px;
+}
+#saturs {
+  background-color: red;
+  padding: 20px;
+  border-radius: 30px;
+}
+#tabula {
+  background-color: mediumvioletred;
+  padding: 20px;
+  border-radius: 30px;
+}
+#canva {
+  background-color: darkolivegreen;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }

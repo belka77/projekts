@@ -9,10 +9,24 @@
 </head>
 
 <body>
- 
-  <h1>Virsraksts</h1>
+ <header>
+   <nav class="topnav">
+     <a href="index.html" class="active">Sākums</a>
+     <a href="PAR MUMS.html" id="cits">Par mums</a></li>
+     <a href="Kontakti.html">Kontakti</a>
+   </nav>
+  </header>
+  <aside class="sidebar">
+    <a href="#saturs">Saturs</a>
+    <a href="#tabula">Tabula</a>
+  </aside>
+  <main>
+    <section id="saturs">
+      <p>Rindkopa1</p>
+      <p id="cits">Rindkopa2</p>
+      <i>Slipraksts</i>
+    </section>
   <section>
-  <p>Rindkopa</p>
     <marquee>Sveicieni!</marquee>
   <img id="leaf" src="media/mana_bilde.jpg" alt="Mana bilde" width="300px"> 
   <br><br> 
@@ -20,10 +34,6 @@
     <br><br> 
   <a href="Kontakti.html">Kontakti</a>
   <br><br> 
-  <nav>
-    <script src="script.js"></script>
-  <br>
-</nav>
   <br>
   <ol type="A">
     <li>Pirmais BURKĀNS</li>
@@ -37,8 +47,8 @@
     <li>Trešais ELEMENTS</li>
   </Ul>
   </section>
+  <section id="tabula">
   <br> 
-  <section>
   <table border="1">
     <tr>
       <th>Pirmais</th>
@@ -56,7 +66,6 @@
     <tr>
       <td>3. rinda 1. kolonna</td>
       <td>3. rinda 2. kolonna</td>
-  
     </tr>
   </table>
     </section>
@@ -68,9 +77,8 @@
     <button onclick="linija()">Parādīt līniju</button><br>
     <button onclick="attels()">Parādīt attēlu</button><br>
   </section>
-
+  </main>
   <footer>&copy; Mana firma 2024</footer>
   <script src="script.js"></script>
 </body>
-
 </html>
